@@ -54,7 +54,7 @@ body, html {
 .marquee-content {
   display: flex;
   width: max-content;
-  animation: marquee 60s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 .marquee-content img {
