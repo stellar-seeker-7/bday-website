@@ -53,7 +53,7 @@ body, html {
 .marquee-content {
   display: flex;
   width: max-content;
-  animation: marquee 10s linear infinite;
+  animation: marquee 5s linear infinite;
 }
 
 .marquee-content img {
@@ -71,7 +71,7 @@ body, html {
   padding: 50px;
   font-size: 24px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  background: rgba(255, 0, 255, 0.847); /* White background with slight transparency */
+  background: rgba(255, 255, 255, 0.847); /* White background with slight transparency */
   color: #000; /* Black text for contrast */
   margin-top: 70vh; /* Ensures it appears after scrolling down */
 }
@@ -102,6 +102,44 @@ body, html {
   flex: 1; /* Allow text to grow and take remaining space */
   padding-left: 20px; /* Add space between image and text */
 }
+
+
+#upload_mem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+  color: #000; /* Black text for contrast */
+  text-align: left; /* Align text to the left */
+  margin-top: 50px; 
+}
+
+.section {
+  margin-bottom: 20px; /* Adjust as needed for the gap between sections */
+}
+
+.section p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+/* Additional Message Above Picture Upload Section */
+.section:nth-child(4) {
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.section:nth-child(4) p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 audio {
   position: absolute;
   bottom: 20px;
