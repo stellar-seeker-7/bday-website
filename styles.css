@@ -48,13 +48,13 @@ body, html {
   position: relative;
   z-index: 1;
   height: 100vh; /* Full height */
-   background-color: #f0f0f0;
+  
 }
 
 .marquee-content {
   display: flex;
   width: max-content;
-  animation: marquee 30s linear infinite;
+  animation: marquee 22s linear infinite;
 }
 
 .marquee-content img {
